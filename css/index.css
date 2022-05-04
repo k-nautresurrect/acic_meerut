@@ -1,0 +1,47 @@
+/* #cf{
+    background-color:none;
+    min-height: 20vh;
+    
+
+   
+
+
+} */
+.text-center {
+  padding-top: 5rem;
+}
+#img1 {
+  max-width: 50%;
+}
+.text {
+  background: linear-gradient(to right, #000000 0%, #c80000 40%, #0068e2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fadein ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+#btnapply{
+    border-radius: 2rem !important;
+  background: linear-gradient(to right, #ff7d04 0%, #ec3900 40%, #c6119e 100%);
+  font-weight: bolder;
+  color: whitesmoke;
+
+}
+
+@media only screen and (max-width: 900px) {
+  .logo {
+    display: none;
+  }
+ 
+}
+
+@media only screen and (max-width: 500px) {
+    .text h1 ,h2{
+        font-size: 1.5rem;
+    }
+    #img1{
+        max-width: 95%;
+    }
+   
+  }
