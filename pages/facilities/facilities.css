@@ -1,0 +1,43 @@
+/* service content */
+
+.facilities-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* ------------------- */
+
+/* content nav */
+.facilities-nav {
+    min-width: 80%;
+    border-radius: 2rem !important;
+    overflow: hidden;
+}
+
+table td {
+    text-align: center;
+}
+
+/* ---------------- */
+
+/* service-desc */
+.facilities-desc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    flex-direction: column;
+    width: 100vw;
+
+}
+
+/* ---------- */
+
+/* inner-content */
+.innercontent {
+    padding-left: 0.5rem;
+    margin-bottom: 5rem;
+}
