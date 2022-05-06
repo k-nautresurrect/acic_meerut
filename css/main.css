@@ -7,7 +7,7 @@ body {
     position: relative;
     height: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0 !important;
     background-color: whitesmoke !important;
     /* overflow-x: hidden; */
 }
@@ -45,7 +45,8 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem 0 1rem;
-
+    
+    z-index: 9999;
 }
 
 .primary-navigation {
@@ -53,7 +54,7 @@ body {
     padding: 1rem;
     margin: 0;
     border-radius: 0.75rem;
-    background: #202020;
+    background-color: #202020;
     backdrop-filter: blur(1rem);
 }
 
@@ -74,6 +75,7 @@ body {
 /* logo */
 .logo {
     width: 10rem;
+    
 }
 /* ----- */
 
@@ -110,8 +112,8 @@ body {
     font-weight: 500;
     width: 100%;
     padding: 1rem;
-    margin: 0rem 0.5rem 0rem 0.5rem;
-    border-radius: 1rem 0rem 1rem 0rem;
+    margin: 0rem;
+    border-radius: 1rem;
 }
 /* ------------ */
 
@@ -135,11 +137,15 @@ body {
 
 .btnupdate {
     border-radius: 2rem !important;
+    border: 0;
     background: linear-gradient(to right, #ff7d04 0%, #ec3900 40%);
     font-weight: bolder;
     color: whitesmoke !important;
     font-weight: 600 !important;
-    
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .table{
     border: 0 !important;
@@ -217,7 +223,11 @@ section{
     transform: translateY(0px);
 }
 /* ------ */
+
+
 @media(max-width: 42em) {
+    
+
     .primary-navigation {
         position: fixed;
         inset: 0 0 0 30%;
