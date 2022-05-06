@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/swiper.css" />
 
     <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({
-            offset: 200,
-            duration: 600,
-            easing: "ease-in-sine",
-            delay: 100,
-        });
+      AOS.init({
+        offset: 200,
+        duration: 600,
+        easing: "ease-in-sine",
+        delay: 100,
+      });
     </script>
-
 
     <script defer src="./scripts/particles.js"></script>
     <script defer src="./scripts/app.js"></script>
@@ -36,125 +44,252 @@
     <script defer src="./scripts/swiperConfig.js"></script>
 
     <title>Acic Meerut</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="particles-js"></div>
     <header class="primary-header flex">
-        <div class="logo-wrapper">
-            <!-- <img src="./assets/logo/acicMietPhone.png" id="img2" alt="logo" class="logo" /> -->
-        </div>
+      <div class="logo-wrapper">
+        <!-- <img src="./assets/logo/acicMietPhone.png" id="img2" alt="logo" class="logo" /> -->
+      </div>
 
-        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-            <span class="sr-only">menu</span>
-        </button>
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="sr-only">menu</span>
+      </button>
 
-        <nav>
-            <ul id="primary-navigation" class="primary-navigation flex" data-visible="false">
-                <li class="active">
-                    <a href="./index.html"><span aria-hidden="true">Home</span></a>
-                </li>
-                <li class="active">
-                    <a href="./pages/services/services.html"><span aria-hidden="true">Services</span></a>
-                </li>
-                <li class="active">
-                    <a href="./pages/outreach/outreach.html"><span aria-hidden="true">Outreach</span></a>
-                </li>
-                <li class="active">
-                    <a href="./pages/careers/careers.html"><span aria-hidden="true">Careers</span></a>
-                </li>
-                <li class="active">
-                    <a href="./pages/facilities/facilities.html"><span aria-hidden="true">Facilities</span></a>
-                </li>
-                <li class="active">
-                    <a href="./pages/contact/contact.html"><span aria-hidden="true">Contact</span></a>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul
+          id="primary-navigation"
+          class="primary-navigation flex"
+          data-visible="false"
+        >
+          <li class="active">
+            <a href="./index.html"><span aria-hidden="true">Home</span></a>
+          </li>
+          <li class="active">
+            <a href="./pages/services/services.html"
+              ><span aria-hidden="true">Services</span></a
+            >
+          </li>
+          <li class="active">
+            <a href="./pages/outreach/outreach.html"
+              ><span aria-hidden="true">Outreach</span></a
+            >
+          </li>
+          <li class="active">
+            <a href="./pages/careers/careers.html"
+              ><span aria-hidden="true">Careers</span></a
+            >
+          </li>
+          <li class="active">
+            <a href="./pages/facilities/facilities.html"
+              ><span aria-hidden="true">Facilities</span></a
+            >
+          </li>
+          <li class="active">
+            <a href="./pages/contact/contact.html"
+              ><span aria-hidden="true">Contact</span></a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
     <section>
-        <figure class="text-center">
-            <img src="./assets/logo/acicMiet.png" class="img-fluid" id="img1" alt="not found" />
-            <blockquote class="text" class="blockquote">
-                <h1>ACIC COMMUNITY INNOVATION CENTER</h1>
-            </blockquote>
-            <figcaption class="text px-2">
-                <h2>ACIC MEERUT MIET FOUNDATION</h2>
-            </figcaption>
-            <a href="https://forms.gle/Mym41KM1NjGUf4AL9" target="_blank" class="btn btn-primary btn-lg" tabindex="-1"
-                role="button" aria-disabled="true" id="btnapply" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                title="Go to Idea Application Form">
-                >Apply Now</a>
-        </figure>
+      <figure class="text-center">
+        <img
+          src="./assets/logo/acicMiet.png"
+          class="img-fluid"
+          id="img1"
+          alt="not found"
+        />
+        <blockquote class="text" class="blockquote">
+          <h1>ACIC COMMUNITY INNOVATION CENTER</h1>
+        </blockquote>
+        <figcaption class="text px-2">
+          <h2>ACIC MEERUT MIET FOUNDATION</h2>
+        </figcaption>
+        <a
+          href="https://forms.gle/Mym41KM1NjGUf4AL9"
+          target="_blank"
+          class="btn btn-primary btn-lg"
+          tabindex="-1"
+          role="button"
+          aria-disabled="true"
+          id="btnapply"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+          title="Go to Idea Application Form"
+        >
+          >Apply Now</a
+        >
+      </figure>
     </section>
     <div class="content-wrapper flex">
-        <div class="content">
-            <h1>Activity &amp; Updates</h1>
-            <div class="Dropdown">
+      <div class="content">
+        <h1>Activity &amp; Updates</h1>
+        <!-- <div class="Dropdown">
+          <div class="fellowship">
+            <button class="btn btn-dark">ACIC FELLOWSHIP</button>
+            <ul>
+                <li>
+                    <a
+                      href="https://drive.google.com/file/d/1-p5HeUGYqeVVlJnMD7lTJ_yfiWornPRw/view?usp=sharing"
+                      target="_blank"
+                      >About Fellowship</a
+                    >
+                  </li>
+              
 
-                <div class="fellowship">
-                    <button class="btn btn-dark">ACIC FELLOWSHIP</button>
-                    <ul>
 
-                        <!-- <li><a href=" https://drive.google.com/file/d/1Ocg5zVQqhjJVh8HPY-a4Dvbc-2cBjFIO/view?usp=drivesdk" target="_blank">About fllowship</a></li> -->
-                        <li onclick="feloclick()"><a href="#">About Fellowship</a></li>
-                        <li><a href="https://drive.google.com/file/d/1-p5HeUGYqeVVlJnMD7lTJ_yfiWornPRw/view?usp=sharing"
-                                target="_blank">Fellowship Overview</a></li>
-                        <li><a href="#">Program Structure</a></li>
-                        <li><a href="#">Fellowship FAQs</a></li>
-                        <li><a href="#">Resources</a></li>
+              
 
-                    </ul>
-                </div>
+              <li >
+                <a
+                  href="https://drive.google.com/file/d/1-p5HeUGYqeVVlJnMD7lTJ_yfiWornPRw/view?usp=sharing"
+                  target="_blank"
+                  >Fellowship Overview</a
+                >
+              </li>
+              <li><a href="#">Program tructure</a></li>
+              <li><a href="#">Fellowship FAQs</a></li>
+              <li><a href="#">Resources</a></li>
+            </ul>
+          </div>
+        </div> -->
 
-            </div>
-            <table>
-                <tbody>
-                    <tr class="flex">
-                        <td class="Marquee-container">
-                            <p class="Marquee">Community Innovation Fellowship for year 2022 have been announced.</p>
-                        </td>
-                        <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdvvcF7kUAfMYfjhxm_5bk3Xf9_M42yCQuJgUJH8XNlTm-O1Q/"
-                                class="btn btn-info btnupdate" role="button" target="_blank">CIF Apply</a>
-                        </td>
-                    </tr>
+        <div class="Dropdown">
+          <a
+            class="btn btn-secondary dropdown-toggle"
+            class="fellowship"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            ACIC Fellowship
+          </a>
 
-                </tbody>
-            </table>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://drive.google.com/file/d/1Ocg5zVQqhjJVh8HPY-a4Dvbc-2cBjFIO/view"
+                target="_blank"
+                >About Fellowship</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://drive.google.com/file/d/1-p5HeUGYqeVVlJnMD7lTJ_yfiWornPRw/view"
+                target="_blank"
+                >Fellowship Overview</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://aim.gov.in/acic-fellowship-program-structure.php"
+                target="_blank"
+                >Program Structure</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://aim.gov.in/acic-faq.php"
+                target="_blank"
+                >Fellowship FAQ'S</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://drive.google.com/drive/folders/1LzCJz0XSAlZOC2f03lYyi5o0oT4emnpD"
+                target="_blank"
+                >Resources
+              </a>
+            </li>
+          </ul>
         </div>
+        <table>
+          <tbody>
+            <tr class="flex">
+              <td class="Marquee-container">
+                <p class="Marquee">
+                  Community Innovation Fellowship for year 2022 have been
+                  announced.
+                </p>
+              </td>
+              <td>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdvvcF7kUAfMYfjhxm_5bk3Xf9_M42yCQuJgUJH8XNlTm-O1Q/"
+                  class="btn btn-info btnupdate"
+                  role="button"
+                  target="_blank"
+                  >CIF Apply</a
+                >
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
     <div class="swiper Carousel">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="./assets/carousel/slideimage1.jpeg" class="carousel-image" /> </div>
-            <div class=" swiper-slide"><img src="./assets/carousel/slideimage2.jpeg" class="carousel-image" /> </div>
-            <div class=" swiper-slide"><img src="./assets/carousel/slideimage3.jpeg" class="carousel-image" /> </div>
-            <div class=" swiper-slide"><img src="./assets/carousel/slideimage4.jpeg" class="carousel-image" /> </div>
-
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            src="./assets/carousel/slideimage1.jpeg"
+            class="carousel-image"
+          />
         </div>
-        <div class=" swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-slide">
+          <img
+            src="./assets/carousel/slideimage2.jpeg"
+            class="carousel-image"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="./assets/carousel/slideimage3.jpeg"
+            class="carousel-image"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="./assets/carousel/slideimage4.jpeg"
+            class="carousel-image"
+          />
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
     </div>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js">
-    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./scripts/index.js"></script>
-
-</body>
-
+  </body>
 </html>
