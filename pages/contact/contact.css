@@ -1,0 +1,15 @@
+.container-fluid{
+    max-width: 60%;
+    height: 30vh;
+    background-color: black;
+    border-radius: 2rem;
+}
+#textclr{
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 2rem;
+}
